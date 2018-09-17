@@ -52,6 +52,18 @@ h2 {
   }
 }
 
+.list-social-icons-side {
+  text-align: center;
+  a {
+    &:hover {
+      color: $secondary;
+    }
+    .fa-lg {
+      font-size: 1.75rem;
+    }
+  }
+}
+
 .list-icons {
   font-size: 3rem;
   .list-inline-item i {
